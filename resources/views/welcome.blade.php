@@ -72,6 +72,7 @@
     <script type="text/javascript" src="{{ asset('public/assets/js/plugins/parallax-slider.js') }}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
+            App.init();
             OwlCarousel.initOwlCarousel();
             StyleSwitcher.initStyleSwitcher();
             ParallaxSlider.initParallaxSlider();

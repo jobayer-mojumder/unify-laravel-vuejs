@@ -87,7 +87,7 @@
 					<!-- Search Block -->
 					<li>
 						<i class="search fa fa-search search-btn"></i>
-						<div class="search-open">
+						<div class="search-open" id="search-open">
 							<div class="input-group animated fadeInDown">
 								<input type="text" class="form-control" placeholder="Search">
 								<span class="input-group-btn">

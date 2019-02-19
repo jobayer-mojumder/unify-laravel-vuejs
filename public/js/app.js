@@ -49139,7 +49139,7 @@ var staticRenderFns = [
     return _c("li", [
       _c("i", { staticClass: "search fa fa-search search-btn" }),
       _vm._v(" "),
-      _c("div", { staticClass: "search-open" }, [
+      _c("div", { staticClass: "search-open", attrs: { id: "search-open" } }, [
         _c("div", { staticClass: "input-group animated fadeInDown" }, [
           _c("input", {
             staticClass: "form-control",
