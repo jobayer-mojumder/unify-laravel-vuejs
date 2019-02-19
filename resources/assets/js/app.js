@@ -1,18 +1,23 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
-
 import VueRouter from 'vue-router'
 Vue.use(VueRouter);
 
-const home = require('./components/HomeComponent.vue').default;
-//Vue.component('headerComponent', require('./components/include/HeaderComponent.vue'));
-import HeaderComponent from  './components/include/HeaderComponent.vue';
+const Home = require('./components/HomeComponent.vue');
+const About = require('./components/AboutComponent.vue');
+
+Vue.component('header-component', require('./components/include/HeaderComponent.vue'));
+Vue.component('footer-component', require('./components/include/FooterComponent.vue'));
 
 const routes = [
     {
         path: '/',
-        component: home, 
+        component: Home, 
+    },
+    {
+        path: '/about',
+        component: About, 
     },
 ];
 
@@ -23,7 +28,4 @@ const router = new VueRouter({
 const app = new Vue({
     el: '#app',
     router,
-    components: { 
-    	'header-component': HeaderComponent
-    },
 });

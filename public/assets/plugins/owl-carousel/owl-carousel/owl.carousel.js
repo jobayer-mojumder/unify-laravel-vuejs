@@ -1424,7 +1424,7 @@ if ( typeof Object.create !== "function" ) {
 		autoPlay : false,
 		stopOnHover : false,
 
-		navigation : true,
+		navigation : false,
 		navigationText : ["prev","next"],
 		rewindNav : true,
 		scrollPerPage : false,
