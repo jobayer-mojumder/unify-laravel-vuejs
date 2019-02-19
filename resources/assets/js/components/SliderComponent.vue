@@ -52,17 +52,15 @@
 
 <script type="javascript">
 	export default {
-		methods: {
-			slider() {
+		methods: {},
+
+		mounted() {
+			jQuery(document).ready(function() {
 				App.init();
 				OwlCarousel.initOwlCarousel();
 				StyleSwitcher.initStyleSwitcher();
 				ParallaxSlider.initParallaxSlider();
-			}
-		},
-
-		mounted() {
-			this.slider();
+			});
 			console.log("Component mounted.");
 		}
 	};

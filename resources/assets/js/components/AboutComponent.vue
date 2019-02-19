@@ -1,9 +1,9 @@
 <template>
 	<div>
-		<div class="breadcrumbs-v3 breadcrumbs-lg img-v2">
+		<div class="breadcrumbs-v3 img-v3 text-center">
 			<div class="container">
-				<h1>Jimmy Howell</h1>
-				<p>CEO, Director</p>
+				<h1>About Us</h1>
+				<p>Creative Freedom Matters User Experience</p>
 			</div>
 		</div>
 		<div class="container content-sm">
@@ -83,7 +83,18 @@
 	<!--=== End Container Part ===-->
 </template>
 <script>
-	export default {};
+	export default {
+        methods: {
+        },
+        mounted() {
+			jQuery(document).ready(function() {
+                App.init();
+                StyleSwitcher.initStyleSwitcher();
+                ProgressBar.initProgressBarHorizontal();
+            });
+		}
+
+    };
 </script>
 
 <style scoped>

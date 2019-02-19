@@ -54,3 +54,4 @@ if (token) {
 //     cluster: 'mt1',
 //     encrypted: true
 // });
+window.$ = window.jQuery = require('jquery');

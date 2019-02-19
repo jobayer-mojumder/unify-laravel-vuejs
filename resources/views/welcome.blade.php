@@ -58,6 +58,7 @@
     <!-- JS Implementing Plugins -->
     <script type="text/javascript" src="{{ asset('public/assets/plugins/back-to-top.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/plugins/smoothScroll.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/assets/plugins/jquery-appear.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/plugins/parallax-slider/js/modernizr.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/plugins/parallax-slider/js/jquery.cslider.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/plugins/owl-carousel/owl-carousel/owl.carousel.js') }}"></script>
@@ -66,11 +67,11 @@
     <!-- JS Page Level -->
     <script type="text/javascript" src="{{ asset('public/assets/js/app.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/js/plugins/owl-carousel.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/assets/js/plugins/progress-bar.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/js/plugins/style-switcher.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/js/plugins/parallax-slider.js') }}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
-            App.init();
             OwlCarousel.initOwlCarousel();
             StyleSwitcher.initStyleSwitcher();
             ParallaxSlider.initParallaxSlider();
