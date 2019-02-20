@@ -35,13 +35,10 @@ var App = function () {
 				jQuery('.search-open').fadeIn(500);
 				jQuery('.search-btn').removeClass('fa-search');
 				jQuery('.search-btn').addClass('fa-times');
-				console.log('open');
-				return;
 			} else {
 				jQuery('.search-open').fadeOut(500);
 				jQuery('.search-btn').addClass('fa-search');
 				jQuery('.search-btn').removeClass('fa-times');
-				console.log('close');
 			}
 		});
 	}
