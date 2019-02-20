@@ -70,22 +70,22 @@
 					<h3 class="heading-xs">Web Design
 						<span class="pull-right">88%</span>
 					</h3>
-					<div class="progress progress-u progress-xxs">
-						<div class="progress-bar progress-bar-dark" role="progressbar" data-width="88"></div>
+					<div class="progress progress-striped active">
+						<div class="progress-bar progress-bar-success" role="progressbar" data-width="88"></div>
 					</div>
 
 					<h3 class="heading-xs">PHP/WordPress
 						<span class="pull-right">76%</span>
 					</h3>
-					<div class="progress progress-u progress-xxs">
-						<div class="progress-bar progress-bar-dark" role="progressbar" data-width="76"></div>
+					<div class="progress progress-striped active">
+						<div class="progress-bar progress-bar-info" role="progressbar" data-width="76"></div>
 					</div>
 
 					<h3 class="heading-xs">HTML/CSS
-						<span class="pull-right">97%</span>
+						<span class="pull-right">66%</span>
 					</h3>
-					<div class="progress progress-u progress-xxs">
-						<div class="progress-bar progress-bar-dark" role="progressbar" data-width="97"></div>
+					<div class="progress progress-striped active">
+						<div class="progress-bar progress-bar-danger" role="progressbar" data-width="66"></div>
 					</div>
 				</div>
 				<!-- End Progress Bar -->

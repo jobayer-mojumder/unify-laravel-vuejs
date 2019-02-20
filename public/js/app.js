@@ -48791,9 +48791,9 @@ var staticRenderFns = [
                 _c("span", { staticClass: "pull-right" }, [_vm._v("88%")])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "progress progress-u progress-xxs" }, [
+              _c("div", { staticClass: "progress progress-striped active" }, [
                 _c("div", {
-                  staticClass: "progress-bar progress-bar-dark",
+                  staticClass: "progress-bar progress-bar-success",
                   attrs: { role: "progressbar", "data-width": "88" }
                 })
               ]),
@@ -48803,22 +48803,22 @@ var staticRenderFns = [
                 _c("span", { staticClass: "pull-right" }, [_vm._v("76%")])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "progress progress-u progress-xxs" }, [
+              _c("div", { staticClass: "progress progress-striped active" }, [
                 _c("div", {
-                  staticClass: "progress-bar progress-bar-dark",
+                  staticClass: "progress-bar progress-bar-info",
                   attrs: { role: "progressbar", "data-width": "76" }
                 })
               ]),
               _vm._v(" "),
               _c("h3", { staticClass: "heading-xs" }, [
                 _vm._v("HTML/CSS\n\t\t\t\t\t"),
-                _c("span", { staticClass: "pull-right" }, [_vm._v("97%")])
+                _c("span", { staticClass: "pull-right" }, [_vm._v("66%")])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "progress progress-u progress-xxs" }, [
+              _c("div", { staticClass: "progress progress-striped active" }, [
                 _c("div", {
-                  staticClass: "progress-bar progress-bar-dark",
-                  attrs: { role: "progressbar", "data-width": "97" }
+                  staticClass: "progress-bar progress-bar-danger",
+                  attrs: { role: "progressbar", "data-width": "66" }
                 })
               ])
             ]
