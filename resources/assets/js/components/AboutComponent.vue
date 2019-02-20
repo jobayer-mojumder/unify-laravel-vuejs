@@ -6,6 +6,19 @@
 				<p>Creative Freedom Matters User Experience</p>
 			</div>
 		</div>
+
+	<!--=== Breadcrumbs ===-->
+		<div class="breadcrumbs">
+			<div class="container">
+				<h1 class="pull-left">About Us</h1>
+				<ul class="pull-right breadcrumb">
+					<li><a href="">Home</a></li>
+					<li class="active">About us</li>
+				</ul>
+			</div>
+		</div><!--/breadcrumbs-->
+		<!--=== End Breadcrumbs ===-->
+
 		<div class="container content-sm">
 			<div class="row">
 				<!-- Social Network -->

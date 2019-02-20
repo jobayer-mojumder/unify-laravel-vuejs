@@ -6,95 +6,137 @@
 				<p>Creative Freedom Matters User Experience</p>
 			</div>
 		</div>
-		<div class="container content-sm">
-			<div class="row">
-				<!-- Social Network -->
-				<div class="col-md-6 md-margin-bottom-50">
-					<div class="headline-left margin-bottom-30">
-						<h2 class="headline-brd heading-md">ABOUT
-							<span class="color-green">ME</span>
-						</h2>
-					</div>
-					<p>Foster tackle reduce child mortality freedom accelerate dedicated international development United Nations. Environmental progressive deep engagement; giving carbon rights community health workers achieve inspiration.</p>
-					<p>Development United Nations. Environmental progressive deep engagement; giving carbon rights community health workers achieve inspiration.</p>
-					<br>
-					<ul class="list-inline social-icons-v1">
-						<li>
-							<a href="#">
-								<i class="rounded-x fa fa-twitter"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="rounded-x fa fa-facebook"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="rounded-x fa fa-google-plus"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="rounded-x fa fa-linkedin"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="rounded-x fa fa-instagram"></i>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<!-- End Social Network -->
-				<!-- Progress Bar -->
-				<div class="col-md-6 progress-box md-margin-bottom-50">
-					<div class="headline-left margin-bottom-30">
-						<h2 class="headline-brd heading-md">MY
-							<span class="color-green">SKILLS</span>
-						</h2>
-					</div>
-					<h3 class="heading-xs">Web Design
-						<span class="pull-right">88%</span>
-					</h3>
-					<div class="progress progress-u progress-xxs">
-						<div class="progress-bar progress-bar-dark" role="progressbar" data-width="88"></div>
-					</div>
-
-					<h3 class="heading-xs">PHP/WordPress
-						<span class="pull-right">76%</span>
-					</h3>
-					<div class="progress progress-u progress-xxs">
-						<div class="progress-bar progress-bar-dark" role="progressbar" data-width="76"></div>
-					</div>
-
-					<h3 class="heading-xs">HTML/CSS
-						<span class="pull-right">97%</span>
-					</h3>
-					<div class="progress progress-u progress-xxs">
-						<div class="progress-bar progress-bar-dark" role="progressbar" data-width="97"></div>
-					</div>
-				</div>
-				<!-- End Progress Bar -->
+		<!--=== Breadcrumbs ===-->
+		<div class="breadcrumbs">
+			<div class="container">
+				<h1 class="pull-left">Services</h1>
+				<ul class="pull-right breadcrumb">
+					<li>
+						<a href>Home</a>
+					</li>
+					<li>
+						<a href>Pages</a>
+					</li>
+					<li class="active">Services</li>
+				</ul>
 			</div>
-			<!--/end row-->
 		</div>
+		<!--/breadcrumbs-->
+		<!--=== Service Blocks ===-->
+        <div class="bg-color-light">
+		<div class="container content-sm">
+			<div class="text-center margin-bottom-50">
+				<h2 class="title-v2 title-center">OUR SERVICES</h2>
+				<p class="space-lg-hor">
+					If you are going to use a
+					<span class="color-green">passage of Lorem Ipsum</span>, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making
+					<span
+						class="color-green"
+					>this the first</span> true generator on the Internet.
+				</p>
+			</div>
+
+			<div class="row content-boxes-v4 content-boxes-v4-sm margin-bottom-30">
+				<div class="col-md-4 md-margin-bottom-40">
+					<i class="pull-left icon-directions"></i>
+					<div class="content-boxes-in-v4">
+						<h2>Creative Ideas</h2>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="col-md-4 md-margin-bottom-40">
+					<i class="pull-left icon-handbag"></i>
+					<div class="content-boxes-in-v4">
+						<h2>E-Commerce Pages</h2>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="pull-left icon-chemistry"></i>
+					<div class="content-boxes-in-v4">
+						<h2>Clean Code</h2>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row content-boxes-v4 content-boxes-v4-sm margin-bottom-30">
+				<div class="col-md-4 md-margin-bottom-40">
+					<i class="pull-left icon-info margin-right-10"></i>
+					<div class="content-boxes-in-v4">
+						<h2>Extensive Documentation</h2>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="col-md-4 md-margin-bottom-40">
+					<i class="pull-left icon-social-youtube margin-right-10"></i>
+					<div class="content-boxes-in-v4">
+						<h2>Vimeo / Youtube</h2>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="pull-left icon-fire margin-right-10"></i>
+					<div class="content-boxes-in-v4">
+						<h2>Excellent Features</h2>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row content-boxes-v4 content-boxes-v4-sm">
+				<div class="col-md-4 md-margin-bottom-40">
+					<i class="pull-left icon-layers"></i>
+					<div class="content-boxes-in-v4">
+						<h2>Multiple Layouts</h2>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="col-md-4 md-margin-bottom-40">
+					<i class="pull-left icon-rocket"></i>
+					<div class="content-boxes-in-v4">
+						<h2>Ready To Use</h2>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="pull-left icon-support"></i>
+					<div class="content-boxes-in-v4">
+						<h2>Stunning Support</h2>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+        </div>
+		<!--=== End Service Blocks ===-->
 	</div>
 	<!--=== End Container Part ===-->
 </template>
 <script>
 	export default {
-        methods: {
-        },
-        mounted() {
+		methods: {},
+		mounted() {
 			jQuery(document).ready(function() {
-                App.init();
-                StyleSwitcher.initStyleSwitcher();
-                ProgressBar.initProgressBarHorizontal();
-            });
+				App.init();
+				StyleSwitcher.initStyleSwitcher();
+				ProgressBar.initProgressBarHorizontal();
+			});
 		}
-
-    };
+	};
 </script>
 
 <style scoped>

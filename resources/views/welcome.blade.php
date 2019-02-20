@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,6 +41,7 @@
     <link rel="stylesheet" href="{{ asset('public/assets/css/custom.css') }}">
 
 </head>
+
 <body class="boxed-layout container">
     <div id='app'>
         <div class="wrapper">
@@ -50,6 +52,8 @@
     </div>
 
     <script src="{{ asset('public/js/app.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/assets/js/app.js') }}"></script>
+
 
     <!-- JS Global Compulsory -->
     <script type="text/javascript" src="{{ asset('public/assets/plugins/jquery/jquery.min.js') }}"></script>
@@ -63,20 +67,13 @@
     <script type="text/javascript" src="{{ asset('public/assets/plugins/parallax-slider/js/jquery.cslider.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/plugins/owl-carousel/owl-carousel/owl.carousel.js') }}"></script>
     <!-- JS Customization -->
-    <script type="text/javascript" src="{{ asset('public/assets/js/custom.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/assets/js/custom.js') }}"></script>    
     <!-- JS Page Level -->
-    <script type="text/javascript" src="{{ asset('public/assets/js/app.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/js/plugins/owl-carousel.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/js/plugins/progress-bar.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/js/plugins/style-switcher.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/js/plugins/parallax-slider.js') }}"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-            App.init();
-            OwlCarousel.initOwlCarousel();
-            StyleSwitcher.initStyleSwitcher();
-            ParallaxSlider.initParallaxSlider();
-        });
-    </script>
+
 </body>
+
 </html>

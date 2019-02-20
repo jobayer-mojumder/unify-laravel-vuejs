@@ -61,8 +61,9 @@
 				<ul class="nav navbar-nav">
 					<!-- Home -->
 					<li>
-						<router-link to="/">Home</router-link>
+						<router-link to="/" >Home</router-link>
 					</li>
+					
 					<!-- End Home -->
 					<li class>
 						<router-link to="/about">About</router-link>
@@ -87,7 +88,7 @@
 					<!-- Search Block -->
 					<li>
 						<i class="search fa fa-search search-btn"></i>
-						<div class="search-open" id="search-open">
+						<div class="search-open">
 							<div class="input-group animated fadeInDown">
 								<input type="text" class="form-control" placeholder="Search">
 								<span class="input-group-btn">

@@ -30,15 +30,18 @@ var App = function () {
 
 	// Search Box (Header)
 	function handleSearch() {
-		jQuery('.search').on("click", function () {
+		jQuery(".search").unbind("click").click(function(){
 			if(jQuery('.search-btn').hasClass('fa-search')){
 				jQuery('.search-open').fadeIn(500);
 				jQuery('.search-btn').removeClass('fa-search');
 				jQuery('.search-btn').addClass('fa-times');
+				console.log('open');
+				return;
 			} else {
 				jQuery('.search-open').fadeOut(500);
 				jQuery('.search-btn').addClass('fa-search');
 				jQuery('.search-btn').removeClass('fa-times');
+				console.log('close');
 			}
 		});
 	}
@@ -241,8 +244,8 @@ var App = function () {
 		init: function () {
 			handleBootstrap();
 			handleSearch();
-			handleSearchV1();
-			handleSearchV2();
+			// handleSearchV1();
+			// handleSearchV2();
 			handleTopBar();
 			handleTopBarSubMenu();
 			handleToggle();

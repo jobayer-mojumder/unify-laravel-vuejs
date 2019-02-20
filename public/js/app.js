@@ -47323,7 +47323,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -47583,10 +47583,42 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 Vue.component("slider", __webpack_require__(48));
 /* harmony default export */ __webpack_exports__["default"] = ({
-	mounted: function mounted() {}
+	mounted: function mounted() {
+		jQuery(document).ready(function () {
+			App.init();
+			OwlCarousel.initOwlCarousel();
+			StyleSwitcher.initStyleSwitcher();
+			ParallaxSlider.initParallaxSlider();
+		});
+	}
 });
 
 /***/ }),
@@ -48165,7 +48197,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", [
               _vm._v(
-                "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi  vehicula sem ut volutpat. Ut non libero magna fusce condimentum eleifend enim a feugiat corrupti quos."
+                "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi vehicula sem ut volutpat. Ut non libero magna fusce condimentum eleifend enim a feugiat corrupti quos."
               )
             ])
           ]),
@@ -48173,7 +48205,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-md-3 btn-buy animated fadeInRight" }, [
             _c("a", { staticClass: "btn-u btn-u-lg", attrs: { href: "#" } }, [
               _c("i", { staticClass: "fa fa-cloud-download" }),
-              _vm._v(" Download Now")
+              _vm._v(" Download Now\n\t\t\t\t\t")
             ])
           ])
         ])
@@ -48336,22 +48368,22 @@ var staticRenderFns = [
       _c("ul", { staticClass: "list-unstyled margin-bottom-20" }, [
         _c("li", [
           _c("i", { staticClass: "fa fa-check color-green" }),
-          _vm._v(" Donec id elit non mi porta gravida")
+          _vm._v(" Donec id elit non mi porta gravida\n\t\t\t\t\t\t\t")
         ]),
         _vm._v(" "),
         _c("li", [
           _c("i", { staticClass: "fa fa-check color-green" }),
-          _vm._v(" Corporate and Creative")
+          _vm._v(" Corporate and Creative\n\t\t\t\t\t\t\t")
         ]),
         _vm._v(" "),
         _c("li", [
           _c("i", { staticClass: "fa fa-check color-green" }),
-          _vm._v(" Responsive Bootstrap Template")
+          _vm._v(" Responsive Bootstrap Template\n\t\t\t\t\t\t\t")
         ]),
         _vm._v(" "),
         _c("li", [
           _c("i", { staticClass: "fa fa-check color-green" }),
-          _vm._v(" Corporate and Creative")
+          _vm._v(" Corporate and Creative\n\t\t\t\t\t\t\t")
         ])
       ])
     ])
@@ -48530,7 +48562,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -48541,6 +48573,19 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -48658,6 +48703,18 @@ var staticRenderFns = [
           _c("h1", [_vm._v("About Us")]),
           _vm._v(" "),
           _c("p", [_vm._v("Creative Freedom Matters User Experience")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "breadcrumbs" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("h1", { staticClass: "pull-left" }, [_vm._v("About Us")]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "pull-right breadcrumb" }, [
+            _c("li", [_c("a", { attrs: { href: "" } }, [_vm._v("Home")])]),
+            _vm._v(" "),
+            _c("li", { staticClass: "active" }, [_vm._v("About us")])
+          ])
         ])
       ]),
       _vm._v(" "),
@@ -48866,7 +48923,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -48961,16 +49018,37 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-       methods: {},
-       mounted: function mounted() {
-              jQuery(document).ready(function () {
-                     App.init();
-                     StyleSwitcher.initStyleSwitcher();
-                     ProgressBar.initProgressBarHorizontal();
-              });
-       }
+	methods: {},
+	mounted: function mounted() {
+		jQuery(document).ready(function () {
+			App.init();
+			StyleSwitcher.initStyleSwitcher();
+			ProgressBar.initProgressBarHorizontal();
+		});
+	}
 });
 
 /***/ }),
@@ -48997,111 +49075,139 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "container content-sm" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-md-6 md-margin-bottom-50" }, [
-            _c("div", { staticClass: "headline-left margin-bottom-30" }, [
-              _c("h2", { staticClass: "headline-brd heading-md" }, [
-                _vm._v("ABOUT\n\t\t\t\t\t\t"),
-                _c("span", { staticClass: "color-green" }, [_vm._v("ME")])
+      _c("div", { staticClass: "breadcrumbs" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("h1", { staticClass: "pull-left" }, [_vm._v("Products")]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "pull-right breadcrumb" }, [
+            _c("li", [_c("a", { attrs: { href: "" } }, [_vm._v("Home")])]),
+            _vm._v(" "),
+            _c("li", [_c("a", { attrs: { href: "" } }, [_vm._v("Pages")])]),
+            _vm._v(" "),
+            _c("li", { staticClass: "active" }, [_vm._v("Services")])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "bg-color-light" }, [
+        _c("div", { staticClass: "container content-sm" }, [
+          _c("div", { staticClass: "headline-center margin-bottom-60" }, [
+            _c("h2", [_vm._v("OUR FEATURES")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Phasellus vitae ipsum ex. Etiam eu vestibulum ante.\n\t\t\t\t"
+              ),
+              _c("br"),
+              _vm._v("Lorem ipsum\n\t\t\t\t"),
+              _c("strong", [_vm._v("dolor")]),
+              _vm._v(
+                " sit amet, consectetur adipiscing elit. Morbi libero libero, imperdiet fringilla\n\t\t\t"
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row margin-bottom-30" }, [
+            _c("div", { staticClass: "col-sm-6 sm-margin-bottom-50" }, [
+              _c("div", { staticClass: "service-block-v8" }, [
+                _c("i", { staticClass: "icon-rocket" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "service-block-desc" }, [
+                  _c("h3", [_vm._v("Creative Ideas")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus velit nec ante tempor, iaculis mollis ante imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    )
+                  ])
+                ])
               ])
             ]),
             _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "Foster tackle reduce child mortality freedom accelerate dedicated international development United Nations. Environmental progressive deep engagement; giving carbon rights community health workers achieve inspiration."
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "Development United Nations. Environmental progressive deep engagement; giving carbon rights community health workers achieve inspiration."
-              )
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("ul", { staticClass: "list-inline social-icons-v1" }, [
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "rounded-x fa fa-twitter" })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "rounded-x fa fa-facebook" })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "rounded-x fa fa-google-plus" })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "rounded-x fa fa-linkedin" })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "rounded-x fa fa-instagram" })
+            _c("div", { staticClass: "col-sm-6 sm-margin-bottom-20" }, [
+              _c("div", { staticClass: "service-block-v8" }, [
+                _c("i", { staticClass: "icon-bubbles" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "service-block-desc" }, [
+                  _c("h3", [_vm._v("Dedicated Support")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus velit nec ante tempor, iaculis mollis ante imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    )
+                  ])
                 ])
               ])
             ])
           ]),
           _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "col-md-6 progress-box md-margin-bottom-50" },
-            [
-              _c("div", { staticClass: "headline-left margin-bottom-30" }, [
-                _c("h2", { staticClass: "headline-brd heading-md" }, [
-                  _vm._v("MY\n\t\t\t\t\t\t"),
-                  _c("span", { staticClass: "color-green" }, [_vm._v("SKILLS")])
+          _c("div", { staticClass: "row margin-bottom-30" }, [
+            _c("div", { staticClass: "col-sm-6 sm-margin-bottom-50" }, [
+              _c("div", { staticClass: "service-block-v8" }, [
+                _c("i", { staticClass: "icon-star" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "service-block-desc" }, [
+                  _c("h3", [_vm._v("Free Updates")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus velit nec ante tempor, iaculis mollis ante imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    )
+                  ])
                 ])
-              ]),
-              _vm._v(" "),
-              _c("h3", { staticClass: "heading-xs" }, [
-                _vm._v("Web Design\n\t\t\t\t\t"),
-                _c("span", { staticClass: "pull-right" }, [_vm._v("88%")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "progress progress-u progress-xxs" }, [
-                _c("div", {
-                  staticClass: "progress-bar progress-bar-dark",
-                  attrs: { role: "progressbar", "data-width": "88" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("h3", { staticClass: "heading-xs" }, [
-                _vm._v("PHP/WordPress\n\t\t\t\t\t"),
-                _c("span", { staticClass: "pull-right" }, [_vm._v("76%")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "progress progress-u progress-xxs" }, [
-                _c("div", {
-                  staticClass: "progress-bar progress-bar-dark",
-                  attrs: { role: "progressbar", "data-width": "76" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("h3", { staticClass: "heading-xs" }, [
-                _vm._v("HTML/CSS\n\t\t\t\t\t"),
-                _c("span", { staticClass: "pull-right" }, [_vm._v("97%")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "progress progress-u progress-xxs" }, [
-                _c("div", {
-                  staticClass: "progress-bar progress-bar-dark",
-                  attrs: { role: "progressbar", "data-width": "97" }
-                })
               ])
-            ]
-          )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-sm-6 sm-margin-bottom-20" }, [
+              _c("div", { staticClass: "service-block-v8" }, [
+                _c("i", { staticClass: "icon-settings" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "service-block-desc" }, [
+                  _c("h3", [_vm._v("CSS3 + HTML5")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus velit nec ante tempor, iaculis mollis ante imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row margin-bottom-20" }, [
+            _c("div", { staticClass: "col-sm-6 sm-margin-bottom-50" }, [
+              _c("div", { staticClass: "service-block-v8" }, [
+                _c("i", { staticClass: "icon-layers" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "service-block-desc" }, [
+                  _c("h3", [_vm._v("One Page Template")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus velit nec ante tempor, iaculis mollis ante imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-sm-6" }, [
+              _c("div", { staticClass: "service-block-v8" }, [
+                _c("i", { staticClass: "icon-handbag" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "service-block-desc" }, [
+                  _c("h3", [_vm._v("eCommerce Ready")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus velit nec ante tempor, iaculis mollis ante imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
         ])
       ])
     ])
@@ -49202,7 +49308,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -49297,16 +49403,60 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-       methods: {},
-       mounted: function mounted() {
-              jQuery(document).ready(function () {
-                     App.init();
-                     StyleSwitcher.initStyleSwitcher();
-                     ProgressBar.initProgressBarHorizontal();
-              });
-       }
+	methods: {},
+	mounted: function mounted() {
+		jQuery(document).ready(function () {
+			App.init();
+			StyleSwitcher.initStyleSwitcher();
+			ProgressBar.initProgressBarHorizontal();
+		});
+	}
 });
 
 /***/ }),
@@ -49333,108 +49483,212 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "container content-sm" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-md-6 md-margin-bottom-50" }, [
-            _c("div", { staticClass: "headline-left margin-bottom-30" }, [
-              _c("h2", { staticClass: "headline-brd heading-md" }, [
-                _vm._v("ABOUT\n\t\t\t\t\t\t"),
-                _c("span", { staticClass: "color-green" }, [_vm._v("ME")])
-              ])
+      _c("div", { staticClass: "breadcrumbs" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("h1", { staticClass: "pull-left" }, [_vm._v("Services")]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "pull-right breadcrumb" }, [
+            _c("li", [_c("a", { attrs: { href: "" } }, [_vm._v("Home")])]),
+            _vm._v(" "),
+            _c("li", [_c("a", { attrs: { href: "" } }, [_vm._v("Pages")])]),
+            _vm._v(" "),
+            _c("li", { staticClass: "active" }, [_vm._v("Services")])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "bg-color-light" }, [
+        _c("div", { staticClass: "container content-sm" }, [
+          _c("div", { staticClass: "text-center margin-bottom-50" }, [
+            _c("h2", { staticClass: "title-v2 title-center" }, [
+              _vm._v("OUR SERVICES")
             ]),
             _vm._v(" "),
-            _c("p", [
+            _c("p", { staticClass: "space-lg-hor" }, [
+              _vm._v("\n\t\t\t\t\tIf you are going to use a\n\t\t\t\t\t"),
+              _c("span", { staticClass: "color-green" }, [
+                _vm._v("passage of Lorem Ipsum")
+              ]),
               _vm._v(
-                "Foster tackle reduce child mortality freedom accelerate dedicated international development United Nations. Environmental progressive deep engagement; giving carbon rights community health workers achieve inspiration."
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "Development United Nations. Environmental progressive deep engagement; giving carbon rights community health workers achieve inspiration."
-              )
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("ul", { staticClass: "list-inline social-icons-v1" }, [
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "rounded-x fa fa-twitter" })
-                ])
+                ", you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making\n\t\t\t\t\t"
+              ),
+              _c("span", { staticClass: "color-green" }, [
+                _vm._v("this the first")
               ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "rounded-x fa fa-facebook" })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "rounded-x fa fa-google-plus" })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "rounded-x fa fa-linkedin" })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "#" } }, [
-                  _c("i", { staticClass: "rounded-x fa fa-instagram" })
-                ])
-              ])
+              _vm._v(" true generator on the Internet.\n\t\t\t\t")
             ])
           ]),
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-md-6 progress-box md-margin-bottom-50" },
+            {
+              staticClass:
+                "row content-boxes-v4 content-boxes-v4-sm margin-bottom-30"
+            },
             [
-              _c("div", { staticClass: "headline-left margin-bottom-30" }, [
-                _c("h2", { staticClass: "headline-brd heading-md" }, [
-                  _vm._v("MY\n\t\t\t\t\t\t"),
-                  _c("span", { staticClass: "color-green" }, [_vm._v("SKILLS")])
+              _c("div", { staticClass: "col-md-4 md-margin-bottom-40" }, [
+                _c("i", { staticClass: "pull-left icon-directions" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "content-boxes-in-v4" }, [
+                  _c("h2", [_vm._v("Creative Ideas")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Learn More")])
                 ])
               ]),
               _vm._v(" "),
-              _c("h3", { staticClass: "heading-xs" }, [
-                _vm._v("Web Design\n\t\t\t\t\t"),
-                _c("span", { staticClass: "pull-right" }, [_vm._v("88%")])
+              _c("div", { staticClass: "col-md-4 md-margin-bottom-40" }, [
+                _c("i", { staticClass: "pull-left icon-handbag" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "content-boxes-in-v4" }, [
+                  _c("h2", [_vm._v("E-Commerce Pages")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Learn More")])
+                ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "progress progress-u progress-xxs" }, [
-                _c("div", {
-                  staticClass: "progress-bar progress-bar-dark",
-                  attrs: { role: "progressbar", "data-width": "88" }
-                })
+              _c("div", { staticClass: "col-md-4" }, [
+                _c("i", { staticClass: "pull-left icon-chemistry" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "content-boxes-in-v4" }, [
+                  _c("h2", [_vm._v("Clean Code")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Learn More")])
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("hr"),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row content-boxes-v4 content-boxes-v4-sm margin-bottom-30"
+            },
+            [
+              _c("div", { staticClass: "col-md-4 md-margin-bottom-40" }, [
+                _c("i", { staticClass: "pull-left icon-info margin-right-10" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "content-boxes-in-v4" }, [
+                  _c("h2", [_vm._v("Extensive Documentation")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Learn More")])
+                ])
               ]),
               _vm._v(" "),
-              _c("h3", { staticClass: "heading-xs" }, [
-                _vm._v("PHP/WordPress\n\t\t\t\t\t"),
-                _c("span", { staticClass: "pull-right" }, [_vm._v("76%")])
+              _c("div", { staticClass: "col-md-4 md-margin-bottom-40" }, [
+                _c("i", {
+                  staticClass: "pull-left icon-social-youtube margin-right-10"
+                }),
+                _vm._v(" "),
+                _c("div", { staticClass: "content-boxes-in-v4" }, [
+                  _c("h2", [_vm._v("Vimeo / Youtube")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Learn More")])
+                ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "progress progress-u progress-xxs" }, [
-                _c("div", {
-                  staticClass: "progress-bar progress-bar-dark",
-                  attrs: { role: "progressbar", "data-width": "76" }
-                })
+              _c("div", { staticClass: "col-md-4" }, [
+                _c("i", { staticClass: "pull-left icon-fire margin-right-10" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "content-boxes-in-v4" }, [
+                  _c("h2", [_vm._v("Excellent Features")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Learn More")])
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("hr"),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "row content-boxes-v4 content-boxes-v4-sm" },
+            [
+              _c("div", { staticClass: "col-md-4 md-margin-bottom-40" }, [
+                _c("i", { staticClass: "pull-left icon-layers" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "content-boxes-in-v4" }, [
+                  _c("h2", [_vm._v("Multiple Layouts")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Learn More")])
+                ])
               ]),
               _vm._v(" "),
-              _c("h3", { staticClass: "heading-xs" }, [
-                _vm._v("HTML/CSS\n\t\t\t\t\t"),
-                _c("span", { staticClass: "pull-right" }, [_vm._v("97%")])
+              _c("div", { staticClass: "col-md-4 md-margin-bottom-40" }, [
+                _c("i", { staticClass: "pull-left icon-rocket" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "content-boxes-in-v4" }, [
+                  _c("h2", [_vm._v("Ready To Use")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Learn More")])
+                ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "progress progress-u progress-xxs" }, [
-                _c("div", {
-                  staticClass: "progress-bar progress-bar-dark",
-                  attrs: { role: "progressbar", "data-width": "97" }
-                })
+              _c("div", { staticClass: "col-md-4" }, [
+                _c("i", { staticClass: "pull-left icon-support" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "content-boxes-in-v4" }, [
+                  _c("h2", [_vm._v("Stunning Support")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [_vm._v("Learn More")])
+                ])
               ])
             ]
           )
@@ -49538,7 +49792,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -49549,6 +49803,7 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
 //
 //
 //
@@ -49825,7 +50080,7 @@ var staticRenderFns = [
     return _c("li", [
       _c("i", { staticClass: "search fa fa-search search-btn" }),
       _vm._v(" "),
-      _c("div", { staticClass: "search-open", attrs: { id: "search-open" } }, [
+      _c("div", { staticClass: "search-open" }, [
         _c("div", { staticClass: "input-group animated fadeInDown" }, [
           _c("input", {
             staticClass: "form-control",
