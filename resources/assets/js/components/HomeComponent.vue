@@ -203,7 +203,7 @@
 			<div class="headline">
 				<h2>Our Clients</h2>
 			</div>
-			<div class="owl-clients-v2">
+			<div class="owl-slider-v2">
 				<div class="item">
 					<img :src="'public/assets/img/clients4/1.png'" alt>
 				</div>

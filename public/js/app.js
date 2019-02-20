@@ -48120,7 +48120,7 @@ var render = function() {
         _vm._v(" "),
         _vm._m(15),
         _vm._v(" "),
-        _c("div", { staticClass: "owl-clients-v2" }, [
+        _c("div", { staticClass: "owl-slider-v2" }, [
           _c("div", { staticClass: "item" }, [
             _c("img", {
               attrs: { src: "public/assets/img/clients4/1.png", alt: "" }
