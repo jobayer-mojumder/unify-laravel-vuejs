@@ -69,11 +69,11 @@
 					</li>
 
 					<li class="">
-						<a href="">Product</a>
+						<router-link to="/products">Product</router-link>
 					</li>
 
 					<li class="">
-						<a href="">Service</a>
+						<router-link to="/service">Service</router-link>
 					</li>
 
 					<li class="">
