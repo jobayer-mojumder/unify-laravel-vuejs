@@ -10,6 +10,7 @@ const Home = require('./components/HomeComponent.vue');
 const About = require('./components/AboutComponent.vue');
 const Products = require('./components/ProductsComponent.vue');
 const Service = require('./components/ServiceComponent.vue');
+const News = require('./components/NewsComponent.vue');
 
 Vue.component('header-component', require('./components/include/HeaderComponent.vue'));
 Vue.component('footer-component', require('./components/include/FooterComponent.vue'));
@@ -31,6 +32,11 @@ const routes = [
         path: '/service',
         component: Service, 
     },
+    {
+        path: '/newsevents',
+        component: News, 
+    },
+    
 ];
 
 const router = new VueRouter({

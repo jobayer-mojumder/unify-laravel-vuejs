@@ -1,6 +1,6 @@
 <template>
 	<!--=== Header ===-->
-	<div class="header">
+	<div class="header header-sticky header-fixed-shrink">
 		<div class="container">
 			<!-- Logo -->
 			<a class="logo" href="">
@@ -33,11 +33,11 @@
 					</li>
 					<li class="topbar-devider"></li>
 					<li>
-						<a href="page_faq.html">Help</a>
+						<a href="#">Help</a>
 					</li>
 					<li class="topbar-devider"></li>
 					<li>
-						<a href="page_login.html">Login</a>
+						<a href="#">Login</a>
 					</li>
 				</ul>
 			</div>
@@ -78,7 +78,7 @@
 					</li>
 
 					<li class="">
-						<a href="">News & Events</a>
+						<router-link to="/newsevents">News & Events</router-link>
 					</li>
 
 					<li class="">
