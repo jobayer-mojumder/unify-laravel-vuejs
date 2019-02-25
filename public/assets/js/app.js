@@ -196,22 +196,22 @@ var App = function () {
 
 	// Hover Selector
 	function handleHoverSelector() {
-		// $('.hoverSelector').on('hover', function(e) {
-		// 	$('.hoverSelectorBlock', this).toggleClass('show');
-		// 	e.stopPropagation();
-		// });
-	    $('.hoverSelector').on('click', function(e) {
-	      if (jQuery(this).children('ul').hasClass('languages')) {
-	        if (jQuery(this).children('ul').hasClass('languages-visible')) {
-	          jQuery(this).children('.languages').slideUp();
-	          jQuery(this).children('.languages').removeClass('languages-visible');
-	        } else {
-	          jQuery(this).children('.languages').slideDown();
-	          jQuery(this).children('.languages').addClass('languages-visible');
-	        }
-	      }
-	      //e.preventDefault();
-	    });
+		$('.hoverSelector').on('hover', function(e) {
+			$('.hoverSelectorBlock', this).toggleClass('show');
+			e.stopPropagation();
+		});
+	    // $('.hoverSelector').on('click', function(e) {
+	    //   if (jQuery(this).children('ul').hasClass('languages')) {
+	    //     if (jQuery(this).children('ul').hasClass('languages-visible')) {
+	    //       jQuery(this).children('.languages').slideUp();
+	    //       jQuery(this).children('.languages').removeClass('languages-visible');
+	    //     } else {
+	    //       jQuery(this).children('.languages').slideDown();
+	    //       jQuery(this).children('.languages').addClass('languages-visible');
+	    //     }
+	    //   }
+	    //   //e.preventDefault();
+	    // });
 	}
 
 	// Bootstrap Tooltips and Popovers

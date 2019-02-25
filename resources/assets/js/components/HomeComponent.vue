@@ -234,14 +234,15 @@
 			</div>
 			<!-- End Owl Clients v1 -->
 		</div>
-		<!--/container-->
-		<!-- End Content Part -->
 	</div>
 </template>
 
 <script>
 	Vue.component("slider", require("./SliderComponent.vue"));
 	export default {
+		metaInfo: {
+			title: "Laravel-VueJS",
+		},
 		mounted() {
 			jQuery(document).ready(function() {
 				App.init();

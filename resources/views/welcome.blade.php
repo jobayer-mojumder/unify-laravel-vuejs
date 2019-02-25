@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="api-base-url" content="{{ url('/') }}" />
-    <title>Unify-Laravel-VueJS</title>
+    <title>Laravel-VueJS</title>
 
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/app.css') }}">
@@ -67,7 +67,7 @@
     <script type="text/javascript" src="{{ asset('public/assets/plugins/parallax-slider/js/jquery.cslider.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/plugins/owl-carousel/owl-carousel/owl.carousel.js') }}"></script>
     <!-- JS Customization -->
-    <script type="text/javascript" src="{{ asset('public/assets/js/custom.js') }}"></script>    
+    <script type="text/javascript" src="{{ asset('public/assets/js/custom.js') }}"></script>
     <!-- JS Page Level -->
     <script type="text/javascript" src="{{ asset('public/assets/js/plugins/owl-carousel.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/js/plugins/progress-bar.js') }}"></script>

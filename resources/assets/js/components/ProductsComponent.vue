@@ -105,7 +105,13 @@
 </template>
 <script>
 	export default {
-		methods: {},
+		metaInfo: {
+			title: "Laravel-VueJS",
+			titleTemplate: '%s | Products'
+		},
+		methods: {
+
+		},
 		mounted() {
 			jQuery(document).ready(function() {
 				App.init();

@@ -7,24 +7,27 @@
 			</div>
 		</div>
 
-	<!--=== Breadcrumbs ===-->
+		<!--=== Breadcrumbs ===-->
 		<div class="breadcrumbs">
 			<div class="container">
 				<h1 class="pull-left">About Us</h1>
 				<ul class="pull-right breadcrumb">
-					<li><a href="">Home</a></li>
+					<li>
+						<a href>Home</a>
+					</li>
 					<li class="active">About us</li>
 				</ul>
 			</div>
-		</div><!--/breadcrumbs-->
+		</div>
+		<!--/breadcrumbs-->
 		<!--=== End Breadcrumbs ===-->
-
 		<div class="container content-sm">
 			<div class="row">
 				<!-- Social Network -->
 				<div class="col-md-6 md-margin-bottom-50">
 					<div class="headline-left margin-bottom-30">
-						<h2 class="headline-brd heading-md">ABOUT
+						<h2 class="headline-brd heading-md">
+							ABOUT
 							<span class="color-green">ME</span>
 						</h2>
 					</div>
@@ -63,25 +66,29 @@
 				<!-- Progress Bar -->
 				<div class="col-md-6 progress-box md-margin-bottom-50">
 					<div class="headline-left margin-bottom-30">
-						<h2 class="headline-brd heading-md">MY
+						<h2 class="headline-brd heading-md">
+							MY
 							<span class="color-green">SKILLS</span>
 						</h2>
 					</div>
-					<h3 class="heading-xs">Web Design
+					<h3 class="heading-xs">
+						Web Design
 						<span class="pull-right">88%</span>
 					</h3>
 					<div class="progress progress-striped active">
 						<div class="progress-bar progress-bar-success" role="progressbar" data-width="88"></div>
 					</div>
 
-					<h3 class="heading-xs">PHP/WordPress
+					<h3 class="heading-xs">
+						PHP/WordPress
 						<span class="pull-right">76%</span>
 					</h3>
 					<div class="progress progress-striped active">
 						<div class="progress-bar progress-bar-info" role="progressbar" data-width="76"></div>
 					</div>
 
-					<h3 class="heading-xs">HTML/CSS
+					<h3 class="heading-xs">
+						HTML/CSS
 						<span class="pull-right">66%</span>
 					</h3>
 					<div class="progress progress-striped active">
@@ -97,17 +104,19 @@
 </template>
 <script>
 	export default {
-        methods: {
-        },
-        mounted() {
+		metaInfo: {
+			title: "Laravel-VueJS",
+			titleTemplate: "%s | Aboutus"
+		},
+		methods: {},
+		mounted() {
 			jQuery(document).ready(function() {
-                App.init();
-                StyleSwitcher.initStyleSwitcher();
-                ProgressBar.initProgressBarHorizontal();
-            });
+				App.init();
+				StyleSwitcher.initStyleSwitcher();
+				ProgressBar.initProgressBarHorizontal();
+			});
 		}
-
-    };
+	};
 </script>
 
 <style scoped>
