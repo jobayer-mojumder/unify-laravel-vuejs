@@ -49054,7 +49054,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -49083,6 +49083,27 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
 	methods: {},
@@ -49092,7 +49113,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 			App.init();
 			OwlCarousel.initOwlCarousel();
 			StyleSwitcher.initStyleSwitcher();
-			ParallaxSlider.initParallaxSlider();
 		});
 		console.log("Component mounted.");
 	}
@@ -49106,25 +49126,97 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "slider-inner" }, [
+    _c("div", { staticClass: "shadow-wrapper margin-bottom-10" }, [
+      _c(
+        "div",
+        {
+          staticClass: "carousel slide carousel-v1 box-shadow shadow-effect-2",
+          attrs: { id: "myCarousel" }
+        },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "carousel-inner" }, [
+            _c("div", { staticClass: "item active" }, [
+              _c("img", {
+                staticClass: "img-responsive",
+                attrs: {
+                  src: "http://www.webyogi.com/images/custom/slider-seo.jpg",
+                  alt: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "item" }, [
+              _c("img", {
+                staticClass: "img-responsive",
+                attrs: { src: "public/assets/img/sliders/4.jpg", alt: "" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "item" }, [
+              _c("img", {
+                staticClass: "img-responsive",
+                attrs: {
+                  src:
+                    "http://www.webyogi.com/images/custom/slider-web-design.jpg",
+                  alt: ""
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _vm._m(1)
+        ]
+      )
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "slider-inner" }, [
-      _c("div", { staticClass: "da-slider", attrs: { id: "da-slider" } }, [
-        _c("div", { staticClass: "da-slide" }),
-        _vm._v(" "),
-        _c("div", { staticClass: "da-slide" }),
-        _vm._v(" "),
-        _c("div", { staticClass: "da-arrows" }, [
-          _c("span", { staticClass: "da-arrows-prev" }),
-          _vm._v(" "),
-          _c("span", { staticClass: "da-arrows-next" })
-        ])
-      ])
+    return _c("ol", { staticClass: "carousel-indicators" }, [
+      _c("li", {
+        staticClass: "rounded-x active",
+        attrs: { "data-target": "#myCarousel", "data-slide-to": "0" }
+      }),
+      _vm._v(" "),
+      _c("li", {
+        staticClass: "rounded-x",
+        attrs: { "data-target": "#myCarousel", "data-slide-to": "1" }
+      }),
+      _vm._v(" "),
+      _c("li", {
+        staticClass: "rounded-x",
+        attrs: { "data-target": "#myCarousel", "data-slide-to": "2" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "carousel-arrow" }, [
+      _c(
+        "a",
+        {
+          staticClass: "left carousel-control",
+          attrs: { "data-slide": "prev", href: "#myCarousel" }
+        },
+        [_c("i", { staticClass: "fa fa-angle-left" })]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          staticClass: "right carousel-control",
+          attrs: { "data-slide": "next", href: "#myCarousel" }
+        },
+        [_c("i", { staticClass: "fa fa-angle-right" })]
+      )
     ])
   }
 ]
@@ -51163,90 +51255,86 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "header header-sticky header-fixed-shrink" },
-    [
-      _c("div", { staticClass: "container" }, [
-        _c("a", { staticClass: "logo", attrs: { href: "" } }, [
-          _c("img", {
-            attrs: { src: "public/assets/img/logo1-default.png", alt: "Logo" }
-          })
-        ]),
-        _vm._v(" "),
-        _vm._m(0),
-        _vm._v(" "),
-        _vm._m(1)
+  return _c("div", { staticClass: "header" }, [
+    _c("div", { staticClass: "container" }, [
+      _c("a", { staticClass: "logo", attrs: { href: "" } }, [
+        _c("img", {
+          attrs: { src: "public/assets/img/logo1-default.png", alt: "Logo" }
+        })
       ]),
       _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass:
-            "collapse navbar-collapse mega-menu navbar-responsive-collapse"
-        },
-        [
-          _c("div", { staticClass: "container" }, [
-            _c("ul", { staticClass: "nav navbar-nav" }, [
-              _c(
-                "li",
-                [_c("router-link", { attrs: { to: "/" } }, [_vm._v("Home")])],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "li",
-                {},
-                [
-                  _c("router-link", { attrs: { to: "/about" } }, [
-                    _vm._v("About")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "li",
-                {},
-                [
-                  _c("router-link", { attrs: { to: "/products" } }, [
-                    _vm._v("Product")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "li",
-                {},
-                [
-                  _c("router-link", { attrs: { to: "/service" } }, [
-                    _vm._v("Service")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "li",
-                {},
-                [
-                  _c("router-link", { attrs: { to: "/newsevents" } }, [
-                    _vm._v("News & Events")
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _vm._m(2),
-              _vm._v(" "),
-              _vm._m(3)
-            ])
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1)
+    ]),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass:
+          "collapse navbar-collapse mega-menu navbar-responsive-collapse"
+      },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("ul", { staticClass: "nav navbar-nav" }, [
+            _c(
+              "li",
+              [_c("router-link", { attrs: { to: "/" } }, [_vm._v("Home")])],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {},
+              [
+                _c("router-link", { attrs: { to: "/about" } }, [
+                  _vm._v("About")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {},
+              [
+                _c("router-link", { attrs: { to: "/products" } }, [
+                  _vm._v("Product")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {},
+              [
+                _c("router-link", { attrs: { to: "/service" } }, [
+                  _vm._v("Service")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {},
+              [
+                _c("router-link", { attrs: { to: "/newsevents" } }, [
+                  _vm._v("News & Events")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(2),
+            _vm._v(" "),
+            _vm._m(3)
           ])
-        ]
-      )
-    ]
-  )
+        ])
+      ]
+    )
+  ])
 }
 var staticRenderFns = [
   function() {

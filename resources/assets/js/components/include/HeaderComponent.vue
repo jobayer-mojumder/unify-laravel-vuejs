@@ -1,6 +1,6 @@
 <template>
 	<!--=== Header ===-->
-	<div class="header header-sticky header-fixed-shrink">
+	<div class="header">
 		<div class="container">
 			<!-- Logo -->
 			<a class="logo" href="">

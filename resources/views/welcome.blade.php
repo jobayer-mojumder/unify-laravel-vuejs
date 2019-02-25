@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="{{ asset('public/assets/css/custom.css') }}">
 
 </head>
-<body class="boxed-layout container header-fixed header-fixed-space-default">
+<body class="boxed-layout container">
     <div id='app'>
         <div class="wrapper">
             <header-component></header-component>
