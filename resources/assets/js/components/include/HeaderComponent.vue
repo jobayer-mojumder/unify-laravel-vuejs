@@ -82,7 +82,7 @@
 					</li>
 
 					<li class="">
-						<a href="">Contact Us</a>
+						<router-link to="/contactus">Contact us</router-link>
 					</li>
 
 					<!-- Search Block -->

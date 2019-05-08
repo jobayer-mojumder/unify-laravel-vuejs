@@ -11,6 +11,7 @@ const About = require('./components/AboutComponent.vue');
 const Products = require('./components/ProductsComponent.vue');
 const Service = require('./components/ServiceComponent.vue');
 const News = require('./components/NewsComponent.vue');
+const Contact = require('./components/ContactusComponent.vue');
 
 Vue.component('header-component', require('./components/include/HeaderComponent.vue'));
 Vue.component('footer-component', require('./components/include/FooterComponent.vue'));
@@ -35,6 +36,10 @@ const routes = [
     {
         path: '/newsevents',
         component: News, 
+    },
+    {
+        path: '/contactus',
+        component: Contact, 
     },
     
 ];
